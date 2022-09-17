@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://localhost:27017/toDoListDB");
+mongoose.connect("mongodb+srv://theo:Th30d0r12@cluster0.7c2i2hg.mongodb.net/toDoListDB");
 
 const app = express();
 
